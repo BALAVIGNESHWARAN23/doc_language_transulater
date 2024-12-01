@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start:debug": "nodemon --inspect index.js"
   },
@@ -22,8 +21,9 @@
     "nodemon": "^3.1.7",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "path": "^0.12.7",
-    "uuid": "^11.0.3",
-    "vercel": "^39.1.2"
+    "uuid": "^11.0.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
